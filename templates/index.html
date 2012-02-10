@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block header %}
+{% endblock %}
+{% block terminal %}
+<p>me@ubuntu:~/Code$ hackpack</p>
+<p>hackpack 1.0.0 (r266:84292, Sep 15 2010, 16:22:56)</p> 
+<p>[GCC 4.4.5] on linux2</p>
+<p>Type "apply" followed by your name and email to apply. Type "about" or "help" for more information</p>
+<form action="/" method="POST">
+    <label for="entry">>>></label>
+    <input type="text" name="entry" id="entry" autofocus autocomplete="off" />
+    <script>
+       if (!("autofocus" in document.createElement("input"))) {
+           document.getElementById("entry").focus();
+        }
+    </script>
+    <input type="submit" style="display:none"/>
+</form>
+<p>{{message}}</p>
+{% endblock %}
+{% block footer %}
+{% endblock %}

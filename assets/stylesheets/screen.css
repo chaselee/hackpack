@@ -1,0 +1,76 @@
+/* Reset (html5doctor.com Reset Stylesheet)
+--------------------------------------------- */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align :middle;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* Hackpack
+--------------------------------------------- */
+body {
+    font-family: "monospace";
+    line-height: 1.2em;
+    color: #3AEF59;
+    background: black;
+    margin: .5em;
+    font-size: 2em;
+}
+
+#entry {
+    color: #3AEF59;
+    background: black;
+    border: none;
+    font-family: "monospace";
+    font-size: 1em;
+    width: 90%;
+    outline-style: none;
+}
+
